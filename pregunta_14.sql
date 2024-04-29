@@ -44,3 +44,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 
+SELECT tbl1.K0, AVG(tbl2.c21) AS 'avg(c21)' FROM tbl1, tbl2 WHERE tbl1.K1 = tbl2.K1 AND tbl1.c13 > 400 GROUP BY tbl1.K0;
+
